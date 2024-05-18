@@ -7,38 +7,41 @@
     <title>AI Chinese Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Chinese Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Chinese poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Alors que je m'appuie sur la balustrade d'une grande tour,
-        <br />
-        La brise souffle doucement. Alors que je regarde au loin,
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by Karelle Bolon and is
-      <a
-        href="https://github.com/karellemarina/chinese_poems_generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://chinese-poem-generator.netlify.app/" target="_blank"
-        >hosted on Netlify.</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Chinese Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Chinese poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poeme">
+          Alors que je m'appuie sur la balustrade d'une grande tour,
+          <br />
+          La brise souffle doucement. Alors que je regarde au loin,
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by Karelle Bolon and is
+        <a
+          href="https://github.com/karellemarina/chinese_poems_generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://chinese-poem-generator.netlify.app/" target="_blank"
+          >hosted on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
