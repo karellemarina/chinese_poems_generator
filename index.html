@@ -3,19 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Chinese Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Chinese Poem Generator</h1>
+        <h1>AI French Poem Generator</h1>
       </header>
+
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="Enter the topic of the Chinese poem"
+            placeholder="Enter the topic of the French poem"
             autofocus
             required
             autocomplete="off"
@@ -23,11 +25,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poeme">
-          Alors que je m'appuie sur la balustrade d'une grande tour,
-          <br />
-          La brise souffle doucement. Alors que je regarde au loin,
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by Karelle Bolon and is
