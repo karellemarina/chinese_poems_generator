@@ -1,6 +1,5 @@
 body {
-  background-color: #ff9492;
-  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/975/original/AdobeStock_395879425_1_50.jpeg?1716207830");
 }
 
 a {
@@ -17,7 +16,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
+  color: black;
   padding: 0;
 }
 
